@@ -1,43 +1,33 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.navbar-background-color{
+    background-color: #019ec1;  
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.navbar-text-color .navbar-header a{
+    color: white;
 }
 
-ul.posts li {
-    list-style: none;
+.navbar-text-color .navbar-collapse .nav a{
+    color: white;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-callout{
+    color: white;
+    background-color: #019ec1;
+    margin-top: -20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
